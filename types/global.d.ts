@@ -215,6 +215,11 @@ declare global {
     threshold: number;
     changePercent?: number;
   };
+
+  type UserForNewsEmail = {
+    email: string;
+    name: string;
+  };
 }
 
 declare module "react-select-country-list" {
